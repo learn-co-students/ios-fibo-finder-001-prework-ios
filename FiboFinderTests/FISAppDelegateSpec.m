@@ -53,7 +53,7 @@ describe(@"FISAppDelegate", ^{
             NSArray *sequence = [appDelegate arrayWithFibonacciSequenceToIndex:50];
             
             expect(sequence.count).to.equal(51);
-            expect([sequence lastObject]).to.equal(12586269025);
+            expect([sequence lastObject]).to.equal(@12586269025);
         });
     });
 });
