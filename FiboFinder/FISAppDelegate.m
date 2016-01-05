@@ -11,7 +11,16 @@
 
 - (NSArray *)arrayWithFibonacciSequenceToIndex:(NSUInteger)index {
     
-    return nil;
+    NSMutableArray *sequence = [NSMutableArray array];
+    for (int i = 0; i < index+1; i++) {
+        if (i == 0) {
+            [sequence addObject:@0];
+        }
+        else if (i == 1) {
+            [sequence addObject:@1];
+        }
+    }
+    return sequence;
 }
 
 @end
