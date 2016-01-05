@@ -9,10 +9,9 @@
     return YES;
 }
 
-/**
- 
- * Write your method implemenation here.
- 
- */
+- (NSArray *)arrayWithFibonacciSequenceToIndex:(NSUInteger)index {
+    
+    return nil;
+}
 
 @end
