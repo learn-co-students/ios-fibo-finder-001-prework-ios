@@ -19,6 +19,9 @@
         else if (i == 1) {
             [sequence addObject:@1];
         }
+        else {
+            [sequence addObject:@([sequence[i-2] integerValue]+[sequence[i-1] integerValue])];
+        }
     }
     return sequence;
 }
