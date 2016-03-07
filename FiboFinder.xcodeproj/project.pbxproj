@@ -210,6 +210,9 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = FIS;
 				TargetAttributes = {
+					726CD3C1193D1EA3003902C0 = {
+						DevelopmentTeam = FMJWPCW6KK;
+					};
 					726CD3DC193D1EA3003902C0 = {
 						TestTargetID = 726CD3C1193D1EA3003902C0;
 					};
@@ -410,12 +413,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FiboFinder/FiboFinder-Prefix.pch";
 				INFOPLIST_FILE = "FiboFinder/FiboFinder-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FIS.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FIS.FiboFinderser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -425,12 +431,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FiboFinder/FiboFinder-Prefix.pch";
 				INFOPLIST_FILE = "FiboFinder/FiboFinder-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FIS.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FIS.FiboFinderser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -440,11 +449,7 @@
 			baseConfigurationReference = 2A5A7DF16FB5F0DF28020071 /* Pods-FiboFinderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FiboFinder.app/FiboFinder";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FiboFinder/FiboFinder-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -464,11 +469,7 @@
 			baseConfigurationReference = E887FA2CFADA3A20EF31AD90 /* Pods-FiboFinderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FiboFinder.app/FiboFinder";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FiboFinder/FiboFinder-Prefix.pch";
 				INFOPLIST_FILE = "FiboFinderTests/FiboFinderTests-Info.plist";

@@ -15,4 +15,33 @@
  
  */
 
+- (NSArray*) arrayWithFibonacciSequenceToIndex:(NSUInteger)index {
+    
+    NSMutableArray* sequence = [[NSMutableArray alloc]init];
+    
+    for (NSUInteger i = 0; i < index + 1; i++){
+        if (i == 0) {
+            [sequence addObject: @0];
+        } else if
+            (i == 1) {
+                [sequence addObject: @1];
+            } else {
+                NSNumber *backTwoNum = sequence[i - 2];
+                NSNumber *backOneNum = sequence[i - 1];
+                NSInteger backTwoNumInt = [backTwoNum integerValue];
+                NSInteger backOneNumInt = [backOneNum integerValue];
+                
+                NSNumber *nextNumberInSeq = @(backOneNumInt + backTwoNumInt);
+                [sequence addObject: nextNumberInSeq];
+                
+        }
+        
+        
+    }
+    
+    return sequence;
+}
+
+
+
 @end
