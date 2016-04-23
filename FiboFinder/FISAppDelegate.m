@@ -4,6 +4,9 @@
 
 @implementation FISAppDelegate
 
+// Objectives:
+// 1. Practice storing and retrieving NSNumber values in a collection.
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
