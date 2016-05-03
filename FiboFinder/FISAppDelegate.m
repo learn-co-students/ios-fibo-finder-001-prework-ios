@@ -23,10 +23,10 @@
             NSNumber *firstNumber = [sequence objectAtIndex:i-1];
             NSNumber *secondNumber = [sequence objectAtIndex:i-2];
             
-            // translate to an integer to do math ? this is bonkers to me
+            // translate to an integer
             NSUInteger integerSum = [firstNumber unsignedIntegerValue] + [secondNumber unsignedIntegerValue];
             
-            // convert to a NSNumber for some reason, because this is an object?
+            // convert to a NSNumber
             NSNumber *numberSum = @(integerSum);
             
             [sequence addObject:numberSum];
