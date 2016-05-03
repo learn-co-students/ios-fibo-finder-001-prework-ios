@@ -10,9 +10,9 @@
 }
 
 
-- (NSArray *)arrayWithFibonacciSequenceToIndex:(NSUInteger)index {
+- (NSArray *)arrayWithFibonacciSequenceToIndex:(NSUInteger)index { // will return an array
     
-    NSMutableArray *sequence = [[NSMutableArray alloc] init];
+    NSMutableArray *sequence = [[NSMutableArray alloc] init]; // that array is made mutable and named sequence
     
     for (NSUInteger i = 0; i < index + 1; i++) {
         if (i == 0) {
@@ -23,19 +23,19 @@
             NSNumber *firstNumber = [sequence objectAtIndex:i-1];
             NSNumber *secondNumber = [sequence objectAtIndex:i-2];
             
-            // translate to an integer
-            NSUInteger integerSum = [firstNumber unsignedIntegerValue] + [secondNumber unsignedIntegerValue];
             
-            // convert to a NSNumber
-            NSNumber *numberSum = @(integerSum);
+            NSUInteger integerSum = [firstNumber unsignedIntegerValue] + [secondNumber unsignedIntegerValue]; // translate to an integer
+            
+            
+            NSNumber *numberSum = @(integerSum); // convert to a NSNumber
             
             [sequence addObject:numberSum];
         }
     }
     
-    NSLog(@"This is the current sequence %@", sequence);
+    NSLog(@"This is the current sequence %@", sequence); // print a string
     
-    return sequence;
+    return sequence; // an array named sequence is returned.
 }
 
-@end
+@end // fin
