@@ -32,7 +32,7 @@ Take a moment now (or save it for a study break later) to read about the [histor
 
 ## Instructions
 
-Open the `ios-fibo-finder.xcworkspace` file.
+Open the `FiboFinder.xcworkspace` file.
 
 1. Navigate to the `FISAppDelegate.h` header file. Declare one method called `arrayWithFibonacciSequenceToIndex:` which takes one `NSUInteger` argument called `index` and returns an `NSArray`.
 
