@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		68A81F3362A1408B9C01E50D /* libPods-FiboFinderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBD61CEA3D64324993915D4 /* libPods-FiboFinderTests.a */; };
-		726CD3C6193D1EA3003902C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726CD3C5193D1EA3003902C0 /* Foundation.framework */; };
 		726CD3C8193D1EA3003902C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726CD3C7193D1EA3003902C0 /* CoreGraphics.framework */; };
-		726CD3CA193D1EA3003902C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726CD3C9193D1EA3003902C0 /* UIKit.framework */; };
 		726CD3D0193D1EA3003902C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 726CD3CE193D1EA3003902C0 /* InfoPlist.strings */; };
 		726CD3D2193D1EA3003902C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 726CD3D1193D1EA3003902C0 /* main.m */; };
 		726CD3D6193D1EA3003902C0 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 726CD3D5193D1EA3003902C0 /* FISAppDelegate.m */; };
@@ -20,6 +18,9 @@
 		726CD3E1193D1EA3003902C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726CD3C9193D1EA3003902C0 /* UIKit.framework */; };
 		726CD3E9193D1EA3003902C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 726CD3E7193D1EA3003902C0 /* InfoPlist.strings */; };
 		726CD3F8193D695C003902C0 /* FISAppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 726CD3F7193D695C003902C0 /* FISAppDelegateSpec.m */; };
+		A7C248751CC6BFEA00F3BE5A /* libPods-FiboFinderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C248741CC6BFEA00F3BE5A /* libPods-FiboFinderTests.a */; };
+		A7C248771CC6BFEF00F3BE5A /* libSpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C248761CC6BFEF00F3BE5A /* libSpecta.a */; };
+		A7C248791CC6BFF300F3BE5A /* libExpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C248781CC6BFF300F3BE5A /* libExpecta.a */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = 726CD3C1193D1EA3003902C0;
 			remoteInfo = FiboFinder;
+		};
+		A7C248861CC6C10700F3BE5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7C248801CC6C10700F3BE5A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D600FA9DD488985A4CDFAEF154A4594;
+			remoteInfo = Expecta;
+		};
+		A7C248881CC6C10700F3BE5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7C248801CC6C10700F3BE5A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CB67FE509DF0324690B6BB87267FF80C;
+			remoteInfo = "Pods-FiboFinderTests";
+		};
+		A7C2488A1CC6C10700F3BE5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7C248801CC6C10700F3BE5A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC955D2828EDD99D6C7332F0E44CDE35;
+			remoteInfo = Specta;
+		};
+		A7E8094E1CD046FD001DD9AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7C248801CC6C10700F3BE5A /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D0DC4F94325265A486086E3B2F676E0C;
+			remoteInfo = Expecta;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -51,6 +80,12 @@
 		726CD3E6193D1EA3003902C0 /* FiboFinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FiboFinderTests-Info.plist"; sourceTree = "<group>"; };
 		726CD3E8193D1EA3003902C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		726CD3F7193D695C003902C0 /* FISAppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegateSpec.m; sourceTree = "<group>"; };
+		A7C248741CC6BFEA00F3BE5A /* libPods-FiboFinderTests.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-FiboFinderTests.a"; path = "../../../Library/Developer/Xcode/DerivedData/FiboFinder-bbjvrztshhdvekgbpofcbpqlggmc/Build/Products/Debug-iphonesimulator/libPods-FiboFinderTests.a"; sourceTree = "<group>"; };
+		A7C248761CC6BFEF00F3BE5A /* libSpecta.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSpecta.a; path = "../../../Library/Developer/Xcode/DerivedData/FiboFinder-bbjvrztshhdvekgbpofcbpqlggmc/Build/Products/Debug-iphonesimulator/libSpecta.a"; sourceTree = "<group>"; };
+		A7C248781CC6BFF300F3BE5A /* libExpecta.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libExpecta.a; path = "../../../Library/Developer/Xcode/DerivedData/FiboFinder-bbjvrztshhdvekgbpofcbpqlggmc/Build/Products/Debug-iphonesimulator/libExpecta.a"; sourceTree = "<group>"; };
+		A7C2487A1CC6C06500F3BE5A /* Expecta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Expecta.xcconfig; path = "Pods/Target Support Files/Expecta/Expecta.xcconfig"; sourceTree = "<group>"; };
+		A7C2487D1CC6C09F00F3BE5A /* Specta.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Specta.xcconfig; path = "Pods/Target Support Files/Specta/Specta.xcconfig"; sourceTree = "<group>"; };
+		A7C248801CC6C10700F3BE5A /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		E887FA2CFADA3A20EF31AD90 /* Pods-FiboFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FiboFinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FiboFinderTests/Pods-FiboFinderTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,9 +94,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7C248791CC6BFF300F3BE5A /* libExpecta.a in Frameworks */,
+				A7C248771CC6BFEF00F3BE5A /* libSpecta.a in Frameworks */,
+				A7C248751CC6BFEA00F3BE5A /* libPods-FiboFinderTests.a in Frameworks */,
 				726CD3C8193D1EA3003902C0 /* CoreGraphics.framework in Frameworks */,
-				726CD3CA193D1EA3003902C0 /* UIKit.framework in Frameworks */,
-				726CD3C6193D1EA3003902C0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +138,12 @@
 		726CD3C4193D1EA3003902C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A7C248801CC6C10700F3BE5A /* Pods.xcodeproj */,
+				A7C2487D1CC6C09F00F3BE5A /* Specta.xcconfig */,
+				A7C2487A1CC6C06500F3BE5A /* Expecta.xcconfig */,
+				A7C248781CC6BFF300F3BE5A /* libExpecta.a */,
+				A7C248761CC6BFEF00F3BE5A /* libSpecta.a */,
+				A7C248741CC6BFEA00F3BE5A /* libPods-FiboFinderTests.a */,
 				726CD3C5193D1EA3003902C0 /* Foundation.framework */,
 				726CD3C7193D1EA3003902C0 /* CoreGraphics.framework */,
 				726CD3C9193D1EA3003902C0 /* UIKit.framework */,
@@ -160,6 +202,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A7C248811CC6C10700F3BE5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7C248871CC6C10700F3BE5A /* libExpecta.a */,
+				A7C248891CC6C10700F3BE5A /* libPods-FiboFinderTests.a */,
+				A7C2488B1CC6C10700F3BE5A /* libSpecta.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,12 +220,13 @@
 			buildConfigurationList = 726CD3EE193D1EA3003902C0 /* Build configuration list for PBXNativeTarget "FiboFinder" */;
 			buildPhases = (
 				726CD3BE193D1EA3003902C0 /* Sources */,
-				726CD3BF193D1EA3003902C0 /* Frameworks */,
 				726CD3C0193D1EA3003902C0 /* Resources */,
+				726CD3BF193D1EA3003902C0 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A7E8094F1CD046FD001DD9AB /* PBXTargetDependency */,
 			);
 			name = FiboFinder;
 			productName = FiboFinder;
@@ -207,7 +260,10 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FIS;
-				LastUpgradeCheck = 0710;
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = FIS;
 				TargetAttributes = {
 					726CD3DC193D1EA3003902C0 = {
@@ -225,6 +281,12 @@
 			mainGroup = 726CD3B9193D1EA3003902C0;
 			productRefGroup = 726CD3C3193D1EA3003902C0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A7C248811CC6C10700F3BE5A /* Products */;
+					ProjectRef = A7C248801CC6C10700F3BE5A /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				726CD3C1193D1EA3003902C0 /* FiboFinder */,
@@ -232,6 +294,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A7C248871CC6C10700F3BE5A /* libExpecta.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libExpecta.a;
+			remoteRef = A7C248861CC6C10700F3BE5A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7C248891CC6C10700F3BE5A /* libPods-FiboFinderTests.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-FiboFinderTests.a";
+			remoteRef = A7C248881CC6C10700F3BE5A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7C2488B1CC6C10700F3BE5A /* libSpecta.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSpecta.a;
+			remoteRef = A7C2488A1CC6C10700F3BE5A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		726CD3C0193D1EA3003902C0 /* Resources */ = {
@@ -312,6 +398,11 @@
 			target = 726CD3C1193D1EA3003902C0 /* FiboFinder */;
 			targetProxy = 726CD3E2193D1EA3003902C0 /* PBXContainerItemProxy */;
 		};
+		A7E8094F1CD046FD001DD9AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Expecta;
+			targetProxy = A7E8094E1CD046FD001DD9AB /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -337,7 +428,7 @@
 		726CD3EC193D1EA3003902C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -353,6 +444,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -367,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -376,7 +468,7 @@
 		726CD3ED193D1EA3003902C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -392,6 +484,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -399,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -410,12 +503,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FiboFinder/FiboFinder-Prefix.pch";
 				INFOPLIST_FILE = "FiboFinder/FiboFinder-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				"LD_RUNPATH_SEARCH_PATHS[sdk=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FIS.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -428,9 +524,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FiboFinder/FiboFinder-Prefix.pch";
 				INFOPLIST_FILE = "FiboFinder/FiboFinder-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FIS.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
